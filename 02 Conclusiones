@@ -1,0 +1,5 @@
+Para el presente Demo se uso framework Karate
+el framework es legible y el uso de gherkin nos ayuda a entender el contexto de la prueba, ademas nos permite
+desarrollar las pruebas en menor tiempo.
+adicional karate nos permite realizar una serie de acciones, no es necesario crear nuevas clases, en las que nos
+podemos apoyar para realizar diferentes acciones reduciendo tiempo y esfuerzo

@@ -1,0 +1,24 @@
+Configuracion:
+*Java version "11.0.16.1"
+*Maven 3.8.2
+
+Dependencias:
+*Karate
+
+Plugins:
+*Cucumber for Java
+*Gherkin
+
+Pasos para la ejecucion:
+La ejecucion sera una secuencia de los test ubicados en: src/java/user.feature/petstore.feature
+
+1 Crear un usuario
+    Para el escenario debemos ejecutar el "Scenario Outline: Crear usuario en PetStore"
+2 Buscar el usuario creado
+    Para el escenario debemos ejecutar el "Scenario Outline: Consultar la creacion del usuario"
+3 Actualizar el nombre y el correo del usuario
+    Para el escenario debemos ejecutar el  "Scenario Outline: Actualizar nombre y correo del usuario"
+4 Buscar el usuario actualizado
+    Para el escenario debemos ejecutar el  "Scenario Outline: Buscar el nombre actualizado"
+5 Eliminar el usuario
+    Para el escenario debemos ejecutar el  "Scenario Outline: Eliminar Usuario"
